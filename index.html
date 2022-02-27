@@ -334,16 +334,16 @@
                 <h1
                     class="font-semibold font-poppins text-4xl text-white md:text-2xl lg:text-5xl text-left md:text-left ">
                     Contact</h1>
-                <form class="w-full">
+                <form class="w-full" action="https://formsubmit.co/mayowa77@yahoo.com" method="POST">
                     <div class="mb-6 mt-20">
                         <label for="name" class="block mb-2 font-bold text-lg font-poppins main-font">Full Name</label>
-                        <input type="name" id="email"
+                        <input type="name" id="email" name="name"
                             class="bg-primary text-gray-900 text-sm rounded-lg block w-full p-5 dark:text-white focus:outline-none focus:ring focus:border-main-font"
                             required>
                     </div>
                     <div class="mb-6">
                         <label for="email" class="block mb-2 text-lg font-bold font-poppins main-font">Email</label>
-                        <input type="email" id="password"
+                        <input type="email" name="email" id="password"
                             class="bg-primary text-gray-900 text-sm rounded-lg  block w-full p-5  dark:text-white focus:outline-none focus:ring focus:border-main-font"
                             placeholder="you@email.com" required>
                     </div>
@@ -351,7 +351,7 @@
                         <div class="container">
                             <label for="message"
                                 class="block mb-2 text-lg font-bold font-poppins main-font">Message</label>
-                            <textarea id="message" rows="5"
+                            <textarea id="message" rows="5" name="textarea"
                                 class=" block rounded-lg bg-primary dark:text-white w-full p-3 focus:outline-none focus:ring focus:border-main-font"></textarea>
                         </div>
                     </div>
@@ -371,7 +371,7 @@
         <div class="container flex flex-row flex-wrap justify-evenly">
             <div class="flex flex-row flex-wrap  md:flex-col justify-center items-center">
                 <div class="flex mt-16 mb-6 flex-row space-x-6 justify-center">
-                    <h1 class="text-white font-montserrat font-bold text-lg">Socials</h1>
+                    <!-- <h1 class="text-white font-montserrat font-bold text-lg">Socials</h1> -->
                     <a href="#" class="">
                         <img width="36" height="45" src="./assets/linkedin-icon.svg" alt="Linkedin"
                             class="text-white -mt-1" />
@@ -398,8 +398,8 @@
         <div class="flex relative">
             <a class="flex absolute bottom-0 right-0" href="#top">
                 <button
-                    class="p-3 rounded-xl text-white font-bold font-poppins border-solid border-2 border-[#F62BA5] hover:border-2 hover:bg-slate-800 absolute bottom-0 right-0">
-                    Top
+                    class="p-3 rounded-xl text-white font-extrabold font-poppins border-solid border-2 border-[#F62BA5] hover:border-2 hover:bg-slate-800 absolute bottom-0 right-0">
+                    &#8593
                 </button>
             </a>
         </div>

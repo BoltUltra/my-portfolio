@@ -996,6 +996,10 @@ html {
   font-weight: 100;
 }
 
+.font-extrabold {
+  font-weight: 800;
+}
+
 .leading-snug {
   line-height: 1.375;
 }
